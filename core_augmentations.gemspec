@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CoreAugmentations::VERSION
   spec.authors       = ["Ernie Brodeur"]
   spec.email         = ["ebrodeur@ujami.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "Methods to augment the core classes in ruby."
+  spec.description   = "A collection of methods that can be used to extend the basic ruby classes."
   spec.homepage      = ""
   spec.license       = "MIT"
 
