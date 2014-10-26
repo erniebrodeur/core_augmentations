@@ -3,8 +3,8 @@ class Array
     index = {}
     self.each do |entry|
       if entry.kind_of?(Array) || entry.kind_of?(Hash)
-        raise "No Entry: #{position} in entry." unless entry[position]
-        raise "Duplicate Index: #{entry[position]}" if index[entry[position]]
+        return nil unless entry[position]
+        return nil if index[entry[position]]
         index[entry[position]] = entry
       end
     end
