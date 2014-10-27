@@ -1,5 +1,10 @@
 # CoreAugmentations
 
+**Master** [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/erniebrodeur/core_augmentations) [![Build Status](https://travis-ci.org/erniebrodeur/core_augmentations.png?branch=master)](https://travis-ci.org/erniebrodeur/core_augmentations) [![Dependency Status](https://gemnasium.com/erniebrodeur/core_augmentations.png)](https://gemnasium.com/erniebrodeur/core_augmentations)
+
+**Development** [![Build Status](https://travis-ci.org/erniebrodeur/core_augmentations.png?branch=development)](https://travis-ci.org/erniebrodeur/core_augmentations)
+
+
 A collection of (somewhat) simple additions to the base ruby classes.
 
 ## Installation
