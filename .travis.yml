@@ -7,4 +7,4 @@ branches:
   only:
     - master
     - development
-script: bundle exec rspec spec
+script: CODECLIMATE_REPO_TOKEN=69c1e6e298325a41b32512316f03a1e83a36a5707073cfdbe174d4362d7a237c bundle exec rspec spec

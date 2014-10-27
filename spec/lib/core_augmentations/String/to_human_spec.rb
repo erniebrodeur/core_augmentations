@@ -1,3 +1,4 @@
+require 'spec_helper.rb'
 require 'core_augmentations/String/to_human'
 
 describe String do
