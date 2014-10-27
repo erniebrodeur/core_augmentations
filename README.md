@@ -1,6 +1,6 @@
 # CoreAugmentations
 
-TODO: Write a gem description
+A collection of (somewhat) simple additions to the base ruby classes.
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Each method is contained in it's own file.  This allows us to extend only the methods we need as we need them.
+
+`require 'core_augmentations/String/to_human'`
+
+All the methods have spec's, they don't have any documentation.  For now just browse the source directory to see
+what is available.
 
 ## Contributing
 
