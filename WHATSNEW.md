@@ -1,4 +1,5 @@
-## (unreleased)
+## 0.1.4
+* Updated Array#collapse_ranges to take a 'step' and a 'split' parameter (step size and a pre-split array).
 
 ## 0.1.3
 * Added Object#add_option, a 'dsl' like method to add named options to an object.
