@@ -1,5 +1,6 @@
 require 'spec_helper.rb'
 require 'core_refinements/String/to_human'
+using CoreRefinements::String::ToHuman
 
 describe String do
   describe "#to_human" do
