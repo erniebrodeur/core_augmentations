@@ -1,5 +1,6 @@
 require 'spec_helper.rb'
 require 'core_refinements/Array/collapse_ranges.rb'
+using CoreRefinements::Array::CollapseRanges
 
 describe Array do
   describe "#collapse_ranges" do
@@ -25,7 +26,7 @@ describe Array do
       expect(complex_range.collapse_ranges(step:1)).to_not eq complex_2
       expect(complex_range.collapse_ranges(step:2)).to eq complex_2
       expect(complex_range.collapse_ranges(step:3)).to_not eq complex_2
-      expect(complex_range.collapse_ranges(step:4)).to_not eq complex_2      
+      expect(complex_range.collapse_ranges(step:4)).to_not eq complex_2
       expect(complex_range.collapse_ranges(step:5)).to_not eq complex_2
       expect(complex_range.collapse_ranges(step:5)).to eq complex_5
     end
