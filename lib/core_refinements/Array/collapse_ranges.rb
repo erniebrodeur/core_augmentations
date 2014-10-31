@@ -11,10 +11,10 @@ module CoreRefinements
         	contiguous_end = nil
         	while (i < self.count)
             current_n = self[i]
-            return nil unless current_n.kind_of? Numeric
+            return nil unless current_n.kind_of? ::Numeric
 
             next_n = self[i+1]
-            if next_n && current_n != next_n && Range.new(current_n, current_n + step).include?(next_n)
+            if next_n && current_n != next_n && ::Range.new(current_n, current_n + step).include?(next_n)
         			# in a sequence and we know this is a part of the range since we have a start marker
         			contiguous_start = i  unless contiguous_start
         		else
@@ -36,8 +36,8 @@ module CoreRefinements
         	end
 
           if split && ungapped_array.any?
-            return [ungapped_array.select {|i| i.class == Range},
-                    ungapped_array.select {|i| i.kind_of? Numeric}]
+            return [ungapped_array.select {|i| i.class == ::Range},
+                    ungapped_array.select {|i| i.kind_of? ::Numeric}]
           end
         	return ungapped_array
         end
