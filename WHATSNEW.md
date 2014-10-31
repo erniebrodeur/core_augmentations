@@ -1,5 +1,7 @@
 ## (unreleased)
-* renamed and convered to refinements instead of monkey patching.
+
+## 0.1.5
+* renamed and converted to refinements instead of monkey patching.
 
 ## 0.1.4
 * Updated Array#collapse_ranges to take a 'step' and a 'split' parameter (step size and a pre-split array).
