@@ -1,4 +1,5 @@
 ## (unreleased)
+* renamed and convered to refinements instead of monkey patching.
 
 ## 0.1.3
 * Added Object#add_option, a 'dsl' like method to add named options to an object.

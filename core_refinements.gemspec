@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'core_augmentations/version'
+require 'core_refinements/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "core_augmentations"
-  spec.version       = CoreAugmentations::VERSION
+  spec.name          = "core_refinements"
+  spec.version       = CoreRefinements::VERSION
   spec.authors       = ["Ernie Brodeur"]
   spec.email         = ["ebrodeur@ujami.net"]
   spec.summary       = "Methods to augment the core classes in ruby."

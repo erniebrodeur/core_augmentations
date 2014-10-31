@@ -1,5 +1,5 @@
 require 'spec_helper.rb'
-require 'core_augmentations/Array/index_by'
+require 'core_refinements/Array/index_by'
 
 describe Array do
   describe "#index_by" do

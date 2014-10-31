@@ -1,5 +1,5 @@
 require 'spec_helper.rb'
-require 'core_augmentations/Array/collapse_ranges.rb'
+require 'core_refinements/Array/collapse_ranges.rb'
 
 describe Array do
   describe "#collapse_ranges" do

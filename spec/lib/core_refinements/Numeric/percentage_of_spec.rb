@@ -1,5 +1,5 @@
 require 'spec_helper.rb'
-require 'core_augmentations/Numeric/percentage_of'
+require 'core_refinements/Numeric/percentage_of'
 
 describe Numeric do
   describe "#percentage_of" do
